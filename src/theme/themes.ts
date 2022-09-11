@@ -1,6 +1,7 @@
 // 3 themes
 // default,
 import {ThemeObject} from '../library/types';
+import {getScalenNumber} from '../library/utils';
 import colors from './color';
 import Fonts from './typography';
 
@@ -8,7 +9,7 @@ export const ThemeA: ThemeObject = {
   ui: {
     primaryButton: {
       backgroundColor: colors.darkerRed,
-      padding: 10,
+      padding: getScalenNumber(10),
       borderRadius: 40,
     },
   },
@@ -28,7 +29,7 @@ export const ThemeB: ThemeObject = {
   // will be using  Lato
   ui: {
     primaryButton: {
-      padding: 10,
+      padding: getScalenNumber(10),
       backgroundColor: colors.darkRed,
     },
   },
@@ -49,7 +50,7 @@ export const ThemeC: ThemeObject = {
       borderRadius: 40,
       borderColor: colors.darkerRed,
       borderWidth: 1,
-      padding: 10,
+      padding: getScalenNumber(10),
     },
   },
   colorPallete: colors,

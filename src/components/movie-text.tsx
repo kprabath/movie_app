@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleProp, StyleSheet, Text, TextStyle} from 'react-native';
 
 import useStyles from '../hooks/use-style';
+import {getScalenNumber} from '../library/utils';
 import colors from '../theme/color';
 
 import RichText from './rich-text';
@@ -36,21 +37,45 @@ const MovieText = ({
     switch (type) {
       // checking font type and mapping styles
       case MovieTextTypes.EXTRA_LARGE:
-        return {fontSize: 28, fontFamily: theme?.typoGraphy?.displayText};
+        return {
+          fontSize: getScalenNumber(28),
+          fontFamily: theme?.typoGraphy?.displayText,
+        };
       case MovieTextTypes.DISPLAY_TEXT:
-        return {fontSize: 24, fontFamily: theme?.typoGraphy?.displayText};
+        return {
+          fontSize: getScalenNumber(24),
+          fontFamily: theme?.typoGraphy?.displayText,
+        };
       case MovieTextTypes.H1:
-        return {fontSize: 22, fontFamily: theme?.typoGraphy?.titleLarge};
+        return {
+          fontSize: getScalenNumber(22),
+          fontFamily: theme?.typoGraphy?.titleLarge,
+        };
       case MovieTextTypes.H2:
-        return {fontSize: 20, fontFamily: theme?.typoGraphy?.titleMedium};
+        return {
+          fontSize: getScalenNumber(20),
+          fontFamily: theme?.typoGraphy?.titleMedium,
+        };
       case MovieTextTypes.H3:
-        return {fontSize: 18, fontFamily: theme?.typoGraphy?.titleSmall};
+        return {
+          fontSize: getScalenNumber(18),
+          fontFamily: theme?.typoGraphy?.titleSmall,
+        };
       case MovieTextTypes.P1:
-        return {fontSize: 16, fontFamily: theme?.typoGraphy?.paragraphLarge};
+        return {
+          fontSize: getScalenNumber(16),
+          fontFamily: theme?.typoGraphy?.paragraphLarge,
+        };
       case MovieTextTypes.P2:
-        return {fontSize: 13, fontFamily: theme?.typoGraphy?.paragraphMedium};
+        return {
+          fontSize: getScalenNumber(13),
+          fontFamily: theme?.typoGraphy?.paragraphMedium,
+        };
       case MovieTextTypes.P3:
-        return {fontSize: 12, fontFamily: theme?.typoGraphy?.paragraphSmall};
+        return {
+          fontSize: getScalenNumber(12),
+          fontFamily: theme?.typoGraphy?.paragraphSmall,
+        };
       case MovieTextTypes.DEFAULT:
       default:
         return styles.defaultText;
@@ -111,7 +136,7 @@ const styles = StyleSheet.create({
     color: colors.white,
   },
   defaultText: {
-    fontSize: 14,
+    fontSize: getScalenNumber(14),
   },
 });
 

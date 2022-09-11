@@ -1,9 +1,15 @@
 import * as React from 'react';
 import Svg, {SvgProps, Circle, G, Path} from 'react-native-svg';
+import {getScalenNumber} from '../../library/utils';
 /* SVGR has dropped some elements not supported by react-native-svg: filter */
 
 const StarIcon = (props: SvgProps) => (
-  <Svg width={24} height={24} fill="none" {...props} viewBox="0 0 24 24">
+  <Svg
+    width={getScalenNumber(24)}
+    height={getScalenNumber(24)}
+    fill="none"
+    {...props}
+    viewBox="0 0 24 24">
     <Circle cx={12} cy={12} r={3} fill="#BBB" />
     <G filter="url(#a)">
       <Path

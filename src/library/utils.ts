@@ -20,7 +20,7 @@ export const getScalenNumber = (size: number) => {
   const dimesion = Math.min(screenHeight, screenWidth);
   const dpi = Math.round(dimesion / 375);
   if (dpi >= 2) {
-    return ((size * dpi) / 4) * size;
+    return (size * dpi) / 3 + size;
   }
   return size;
 };
