@@ -32,7 +32,8 @@ Follow these steps for Android<br />
   
 Notes: 
 
-Application shows will show error messages if the network is not connected.So make sure to reload the app after connecting to the network
+Application will show error messages if the network is not connected.So make sure to reload the app after connecting to the network.<br/>
+
 The App is responsive. UI will adjust with device orientation changes 
 
 
