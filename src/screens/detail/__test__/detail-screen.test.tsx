@@ -2,8 +2,8 @@
 import {waitFor, cleanup, fireEvent} from '@testing-library/react-native';
 
 import {MoviesApi} from '../../../library/api/movies.api';
-import {ADD} from '../../../library/constants';
-import {makeProps, renderWithRedux} from '../../../library/test-utils.tsx';
+import {ADD, REMOVE} from '../../../library/constants';
+import {makeProps, renderWithRedux} from '../../../library/test-utils';
 import {store} from '../../../store';
 import {getMovieDetails} from '../../../store/actions/movie.actions';
 
@@ -86,7 +86,6 @@ jest.spyOn(MoviesApi, 'getMovieDetails').mockImplementation(() =>
 );
 
 describe('Details Screen', () => {
-  afterEach(cleanup);
   test('Should load all the details of a movie', async () => {
     const props = makeProps({selectedMovie: movie});
     const {getByText} = renderWithRedux(<DetailScreen {...props} />);
@@ -99,16 +98,17 @@ describe('Details Screen', () => {
   });
 
   test('when click the add button should add to the selected movies', async () => {
+    afterAll(cleanup);
     const props = makeProps({selectedMovie: movie});
-    const {getByText} = renderWithRedux(<DetailScreen {...props} />);
+    const component = renderWithRedux(<DetailScreen {...props} />);
     store.dispatch(getMovieDetails(629176, jest.fn()));
     await waitFor(() => {
-      const button = getByText(ADD);
+      const button = component.getByText('ADD');
       fireEvent.press(button);
       expect(
         store
           .getState()
-          .movieReducer.selectedMovies.some(el => el.id === movie.id),
+          .movieReducer.selectedMovies.some(el => el?.id === movie?.id),
       ).toBeTruthy();
     });
   });

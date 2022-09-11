@@ -52,11 +52,13 @@ const DetailScreen = ({route}: IProps) => {
     (state: Reducers) => state.appStateReducer.loadingStatus.loadErrors,
   );
   const [movieDetails, setMovieDetails] = useState<Movie>();
-  const hasErrors = Boolean(loadErrors?.[MOVIE_DETAILS(selectedMovie.id)]);
+  const hasErrors = Boolean(loadErrors?.[MOVIE_DETAILS(selectedMovie?.id)]);
 
   const loadData = () =>
     dispatch(
-      getMovieDetails(selectedMovie.id, (data: Movie) => setMovieDetails(data)),
+      getMovieDetails(selectedMovie?.id, (data: Movie) =>
+        setMovieDetails(data),
+      ),
     );
 
   useEffect(() => {

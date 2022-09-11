@@ -23,6 +23,7 @@ export type ActionButtonProps = {
   text?: string;
   textStyles?: StyleProp<TextStyle>;
   textType?: MovieTextTypes;
+  testId?: string;
 };
 
 const ActionButton = ({
@@ -34,6 +35,7 @@ const ActionButton = ({
   text,
   textStyles,
   textType,
+  testId,
 }: ActionButtonProps) => {
   const {theme} = useStyles();
   // get styles for different buttons
@@ -55,6 +57,7 @@ const ActionButton = ({
   return (
     <Pressable
       disabled={disabled}
+      testID={testId}
       onPress={onPress}
       style={[styles.container, customStyles, getStyle()]}>
       {text && (
