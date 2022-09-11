@@ -5,6 +5,7 @@
 
 To Run the Project Follow these steps<br /> 
 ***
+Clone or Fork this project<b/>
 Make sure your have setup react-native environment<br />
 
 follow these steps to run on IOS<br />
