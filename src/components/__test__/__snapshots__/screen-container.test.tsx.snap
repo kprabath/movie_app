@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenContainer should match the snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4281282869,
+        4279571487,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "paddingBottom": 4,
+          "paddingTop": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "minHeight": 1800,
+            "paddingHorizontal": 50,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "maxWidth": 187.5,
+            },
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "zIndex": 10,
+            },
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "paddingHorizontal": 50,
+              },
+              undefined,
+              Object {
+                "backgroundColor": "#e74c3c",
+                "borderRadius": 40,
+                "padding": 10,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "maxWidth": 375,
+              },
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontSize": 14,
+                },
+                Array [
+                  Object {
+                    "fontSize": 288,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "maxWidth": 187.5,
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+            Object {
+              "zIndex": 10,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        Array [
+          undefined,
+        ]
+      }
+      showsVerticalScrollIndicator={false}
+    >
+      <View />
+    </RCTScrollView>
+  </BVLinearGradient>
+</RNCSafeAreaProvider>
+`;

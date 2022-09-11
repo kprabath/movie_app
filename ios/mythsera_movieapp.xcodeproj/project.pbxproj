@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* mythsera_movieappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mythsera_movieappTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-mythsera_movieapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-mythsera_movieapp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-mythsera_movieapp-mythsera_movieappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-mythsera_movieapp-mythsera_movieappTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		6C0E15BFA4724CC19462AF66 /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 596FF91C194640588AF7A549 /* SFUIDisplay-Regular.otf */; };
+		BCAE5FF5615E49D19D0797BD /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C26A280AE1794115815A3530 /* IBMPlexMono-Bold.ttf */; };
+		27989B4B423D4EA493899779 /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B45D1D60198B4AC18C423D8E /* IBMPlexMono-BoldItalic.ttf */; };
+		789C9094C8C749DEB12BEE80 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13FA4FA965DD43FEA988AE17 /* IBMPlexMono-ExtraLight.ttf */; };
+		9E7537FEBAE44BED8450237C /* IBMPlexMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C99818F20BA44B8991C7F242 /* IBMPlexMono-ExtraLightItalic.ttf */; };
+		2D73E11297054EA2962C1699 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2138078875E149989D70BB1F /* IBMPlexMono-Italic.ttf */; };
+		80E78060BB22472EA359F7E8 /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D49FAB026C0F446F8C518331 /* IBMPlexMono-Light.ttf */; };
+		F24F6A1097C34ED4AECE3B6F /* IBMPlexMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C4BE19C74164D1BB639E2B0 /* IBMPlexMono-LightItalic.ttf */; };
+		02C26A9921DF4ED699124061 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4818E10390E4E068A558E3B /* IBMPlexMono-Medium.ttf */; };
+		695B23BAA77F4582AB7CFC19 /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D137DBF0909A4180B6ACD8CB /* IBMPlexMono-MediumItalic.ttf */; };
+		AB543D3958394B16BF9209F6 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5ED9341C924CC69888FABA /* IBMPlexMono-Regular.ttf */; };
+		B6DC9AF501BB48FD82141E64 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C715D910AFA41DB83E35615 /* IBMPlexMono-SemiBold.ttf */; };
+		0C43C60C426F4F2CBEC7F7E8 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5059581636441BBA73C9822 /* IBMPlexMono-SemiBoldItalic.ttf */; };
+		D342ADC0C6214DDDBCB7152C /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 355A057104A544BBADD08542 /* IBMPlexMono-Thin.ttf */; };
+		4218372DF3064712AAB3F815 /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C378EF06FA48E5A91311FB /* IBMPlexMono-ThinItalic.ttf */; };
+		0821AA4CB24645DEA0829FA0 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6A8AF7E9E0F4874974CD2C4 /* IBMPlexSans-Bold.ttf */; };
+		451FCBDA744148D187B261DC /* IBMPlexSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A0058D9DFD41C2B6435FFC /* IBMPlexSans-BoldItalic.ttf */; };
+		79E9B386AC274500A79F4106 /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D282B4198FDB4B80A99F4172 /* IBMPlexSans-ExtraLight.ttf */; };
+		3DF73E6D0A1943EC9E2D9661 /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B06E323D67A4640BF4987DE /* IBMPlexSans-ExtraLightItalic.ttf */; };
+		57E4835010FA4D378C9475B7 /* IBMPlexSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34CE523C67034D15A217AB62 /* IBMPlexSans-Italic.ttf */; };
+		6512DCAD41C34936B9AC682C /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B29A10660B9435C892B258E /* IBMPlexSans-Light.ttf */; };
+		CFE23C02A8334B5CBCFD186A /* IBMPlexSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCEE63BDE7E54700A97B2984 /* IBMPlexSans-LightItalic.ttf */; };
+		88F0A5791B0344179584FA4C /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A772978B2DB6410DB48CEF91 /* IBMPlexSans-Medium.ttf */; };
+		C034BCF32CC14916A78F44F2 /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88F6791460C49F4AF500B91 /* IBMPlexSans-MediumItalic.ttf */; };
+		09D67B69617143268F949B1B /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF848895B98B4BBC93D308CA /* IBMPlexSans-Regular.ttf */; };
+		A3359A189D764D5DB89A5B74 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20EFFE008DF84BA48D67BA9C /* IBMPlexSans-SemiBold.ttf */; };
+		F9C78037A17F4EA294BB237E /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189B641FE0E94910BEF70915 /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		BC8A4E1FC6E042148FDADE3B /* IBMPlexSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B1442768814F49A4755D31 /* IBMPlexSans-Thin.ttf */; };
+		ECDDDF30D6404EEC84A5DBDE /* IBMPlexSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65545834445345578CAAA67F /* IBMPlexSans-ThinItalic.ttf */; };
+		A051087F45E14FBF98019E65 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1A0C60C546E4F2194393994 /* Lato-Black.ttf */; };
+		2895A320C451473E835B50A3 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A7EA961614A2182DC63F4 /* Lato-BlackItalic.ttf */; };
+		262A7112B52E4F3FA03E7AE0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F27115DB96F458882A6051D /* Lato-Bold.ttf */; };
+		65E445E44C904B0B8383A3F1 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A9C4C5AF92D40E6AE629EFA /* Lato-BoldItalic.ttf */; };
+		9E205FDD80E64FCE9EE322B4 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06779E9D6D4821B6144B5D /* Lato-Hairline.ttf */; };
+		E9DF278BE9BC4C6CBA97A629 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9574031FADEE410B9B8F0646 /* Lato-HairlineItalic.ttf */; };
+		C678EC7439044CFE82CE1156 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E82D007AB7740EF848FC3A6 /* Lato-Heavy.ttf */; };
+		3BEEB3F4FE6E4564A8370C85 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C089EAAC00D946ED8DA6248C /* Lato-HeavyItalic.ttf */; };
+		D2769C582C4644EBB7D3229E /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBC321C6C43145FC90916FE5 /* Lato-Italic.ttf */; };
+		F01A7B544038456095EC6B0F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B96973B47F4C05A8FA434E /* Lato-Light.ttf */; };
+		CA316DEE2ED64A898E79BEC4 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23700DC3CB584D96A29D222E /* Lato-LightItalic.ttf */; };
+		BEB8F6E90435443691646181 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D80D56E127E4F348BE49CD1 /* Lato-Medium.ttf */; };
+		B88DF5E0F5FF44F3B843406E /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EEFFC17DB70447A8FBB98A4 /* Lato-MediumItalic.ttf */; };
+		9690839FA0CF4F9CB9EB163D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1294676BE60647A8B8476F1B /* Lato-Regular.ttf */; };
+		2192BC6A6530437D813F2EDE /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432BF1864DDC47E388519D75 /* Lato-Semibold.ttf */; };
+		58706437EE2C4A71B8B03365 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 538DAA47AEAB4F4493856FE3 /* Lato-SemiboldItalic.ttf */; };
+		783A64BBA7634FBEAC076199 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08B14FBB345B43A2B50BEC04 /* Lato-Thin.ttf */; };
+		E38AD845978F48F6B366CB02 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 593E4E1B12274E90A5BB66D7 /* Lato-ThinItalic.ttf */; };
+		D53CF1E8F268410AADEAACD1 /* SharpSans-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 075FFDE6EF8A4AFC81FBE15A /* SharpSans-Book.ttf */; };
+		5709906D62974A8BA87E970C /* SharpSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7ED20A87A4129A7BA3F43 /* SharpSans-Medium.ttf */; };
+		D062AA3E93D44E0F9BEE5B23 /* SharpSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B64B62CEAFD45DFB967B008 /* SharpSans-Semibold.ttf */; };
+		A1DFD8024B674C79BEDDFDC1 /* SharpSansDisplayNo1-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDADD61D29FF4CA2BA9CB8F5 /* SharpSansDisplayNo1-Black.ttf */; };
+		732012D59CB649308FBB8103 /* SharpSansDisplayNo1-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37AE0ACA34A4C1597446CCC /* SharpSansDisplayNo1-Bold.ttf */; };
+		2CEEF393042E43CB8A281429 /* SharpSansDisplayNo1-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7458CF77EE804C948A56B3C0 /* SharpSansDisplayNo1-Book.ttf */; };
+		CED1323853B2427CBDD14B21 /* SharpSansDisplayNo1-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B01C21A0BD4CFCAB4C22C5 /* SharpSansDisplayNo1-Extrabold.ttf */; };
+		0D0FA08024DA4AE0831AFA09 /* SharpSansDisplayNo1-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38134FF16B714ED4A6E477C9 /* SharpSansDisplayNo1-Hairline.ttf */; };
+		8D8E72E086674B7899C298E3 /* SharpSansDisplayNo1-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A465562DB4C4BF4B5C7705F /* SharpSansDisplayNo1-Medium.ttf */; };
+		E7E945E93EA745FFB462DFAB /* SharpSansDisplayNo1-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 378B6A1840864493904FBB95 /* SharpSansDisplayNo1-Semibold.ttf */; };
+		2358788F777246DB82DAE463 /* SharpSansDisplayNo1-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C593C5B66CD14560B14E2F5D /* SharpSansDisplayNo1-Thin.ttf */; };
+		E13B084D4C15421CA37093B3 /* SharpSansDisplayNo1-Ultrathin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E99EA2A890B74536AF10971A /* SharpSansDisplayNo1-Ultrathin.ttf */; };
+		773DC2E58FAC4BFD92BCDC4D /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD4D4F42E70C450CABB56841 /* icomoon.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = mythsera_movieapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* mythsera_movieappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mythsera_movieappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mythsera_movieappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mythsera_movieappTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* mythsera_movieapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mythsera_movieapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mythsera_movieapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = mythsera_movieapp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mythsera_movieapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mythsera_movieapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mythsera_movieapp/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-mythsera_movieapp-mythsera_movieappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mythsera_movieapp-mythsera_movieappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-mythsera_movieapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mythsera_movieapp.debug.xcconfig"; path = "Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-mythsera_movieapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mythsera_movieapp.release.xcconfig"; path = "Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-mythsera_movieapp-mythsera_movieappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mythsera_movieapp-mythsera_movieappTests.debug.xcconfig"; path = "Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-mythsera_movieapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mythsera_movieapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mythsera_movieapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-mythsera_movieapp-mythsera_movieappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mythsera_movieapp-mythsera_movieappTests.release.xcconfig"; path = "Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		596FF91C194640588AF7A549 /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; name = "SFUIDisplay-Regular.otf"; path = "../assets/fonts/SFUIDisplay-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C26A280AE1794115815A3530 /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Bold.ttf"; path = "../assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B45D1D60198B4AC18C423D8E /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-BoldItalic.ttf"; path = "../assets/fonts/IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13FA4FA965DD43FEA988AE17 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ExtraLight.ttf"; path = "../assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C99818F20BA44B8991C7F242 /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ExtraLightItalic.ttf"; path = "../assets/fonts/IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2138078875E149989D70BB1F /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Italic.ttf"; path = "../assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D49FAB026C0F446F8C518331 /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Light.ttf"; path = "../assets/fonts/IBMPlexMono-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C4BE19C74164D1BB639E2B0 /* IBMPlexMono-LightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-LightItalic.ttf"; path = "../assets/fonts/IBMPlexMono-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4818E10390E4E068A558E3B /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Medium.ttf"; path = "../assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D137DBF0909A4180B6ACD8CB /* IBMPlexMono-MediumItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-MediumItalic.ttf"; path = "../assets/fonts/IBMPlexMono-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E5ED9341C924CC69888FABA /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Regular.ttf"; path = "../assets/fonts/IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C715D910AFA41DB83E35615 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-SemiBold.ttf"; path = "../assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5059581636441BBA73C9822 /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-SemiBoldItalic.ttf"; path = "../assets/fonts/IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		355A057104A544BBADD08542 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Thin.ttf"; path = "../assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59C378EF06FA48E5A91311FB /* IBMPlexMono-ThinItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ThinItalic.ttf"; path = "../assets/fonts/IBMPlexMono-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6A8AF7E9E0F4874974CD2C4 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Bold.ttf"; path = "../assets/fonts/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90A0058D9DFD41C2B6435FFC /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-BoldItalic.ttf"; path = "../assets/fonts/IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D282B4198FDB4B80A99F4172 /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-ExtraLight.ttf"; path = "../assets/fonts/IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B06E323D67A4640BF4987DE /* IBMPlexSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-ExtraLightItalic.ttf"; path = "../assets/fonts/IBMPlexSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34CE523C67034D15A217AB62 /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Italic.ttf"; path = "../assets/fonts/IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B29A10660B9435C892B258E /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Light.ttf"; path = "../assets/fonts/IBMPlexSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCEE63BDE7E54700A97B2984 /* IBMPlexSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-LightItalic.ttf"; path = "../assets/fonts/IBMPlexSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A772978B2DB6410DB48CEF91 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Medium.ttf"; path = "../assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E88F6791460C49F4AF500B91 /* IBMPlexSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-MediumItalic.ttf"; path = "../assets/fonts/IBMPlexSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF848895B98B4BBC93D308CA /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Regular.ttf"; path = "../assets/fonts/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20EFFE008DF84BA48D67BA9C /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-SemiBold.ttf"; path = "../assets/fonts/IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		189B641FE0E94910BEF70915 /* IBMPlexSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-SemiBoldItalic.ttf"; path = "../assets/fonts/IBMPlexSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09B1442768814F49A4755D31 /* IBMPlexSans-Thin.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Thin.ttf"; path = "../assets/fonts/IBMPlexSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65545834445345578CAAA67F /* IBMPlexSans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-ThinItalic.ttf"; path = "../assets/fonts/IBMPlexSans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1A0C60C546E4F2194393994 /* Lato-Black.ttf */ = {isa = PBXFileReference; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C8A7EA961614A2182DC63F4 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BlackItalic.ttf"; path = "../assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F27115DB96F458882A6051D /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A9C4C5AF92D40E6AE629EFA /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BoldItalic.ttf"; path = "../assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A06779E9D6D4821B6144B5D /* Lato-Hairline.ttf */ = {isa = PBXFileReference; name = "Lato-Hairline.ttf"; path = "../assets/fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9574031FADEE410B9B8F0646 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; name = "Lato-HairlineItalic.ttf"; path = "../assets/fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E82D007AB7740EF848FC3A6 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; name = "Lato-Heavy.ttf"; path = "../assets/fonts/Lato-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C089EAAC00D946ED8DA6248C /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Lato-HeavyItalic.ttf"; path = "../assets/fonts/Lato-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBC321C6C43145FC90916FE5 /* Lato-Italic.ttf */ = {isa = PBXFileReference; name = "Lato-Italic.ttf"; path = "../assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B96973B47F4C05A8FA434E /* Lato-Light.ttf */ = {isa = PBXFileReference; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23700DC3CB584D96A29D222E /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; name = "Lato-LightItalic.ttf"; path = "../assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D80D56E127E4F348BE49CD1 /* Lato-Medium.ttf */ = {isa = PBXFileReference; name = "Lato-Medium.ttf"; path = "../assets/fonts/Lato-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6EEFFC17DB70447A8FBB98A4 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Lato-MediumItalic.ttf"; path = "../assets/fonts/Lato-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1294676BE60647A8B8476F1B /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		432BF1864DDC47E388519D75 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; name = "Lato-Semibold.ttf"; path = "../assets/fonts/Lato-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		538DAA47AEAB4F4493856FE3 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; name = "Lato-SemiboldItalic.ttf"; path = "../assets/fonts/Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08B14FBB345B43A2B50BEC04 /* Lato-Thin.ttf */ = {isa = PBXFileReference; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		593E4E1B12274E90A5BB66D7 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Lato-ThinItalic.ttf"; path = "../assets/fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		075FFDE6EF8A4AFC81FBE15A /* SharpSans-Book.ttf */ = {isa = PBXFileReference; name = "SharpSans-Book.ttf"; path = "../assets/fonts/SharpSans-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CD7ED20A87A4129A7BA3F43 /* SharpSans-Medium.ttf */ = {isa = PBXFileReference; name = "SharpSans-Medium.ttf"; path = "../assets/fonts/SharpSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B64B62CEAFD45DFB967B008 /* SharpSans-Semibold.ttf */ = {isa = PBXFileReference; name = "SharpSans-Semibold.ttf"; path = "../assets/fonts/SharpSans-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDADD61D29FF4CA2BA9CB8F5 /* SharpSansDisplayNo1-Black.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Black.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A37AE0ACA34A4C1597446CCC /* SharpSansDisplayNo1-Bold.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Bold.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7458CF77EE804C948A56B3C0 /* SharpSansDisplayNo1-Book.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Book.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31B01C21A0BD4CFCAB4C22C5 /* SharpSansDisplayNo1-Extrabold.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Extrabold.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Extrabold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38134FF16B714ED4A6E477C9 /* SharpSansDisplayNo1-Hairline.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Hairline.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Hairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A465562DB4C4BF4B5C7705F /* SharpSansDisplayNo1-Medium.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Medium.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		378B6A1840864493904FBB95 /* SharpSansDisplayNo1-Semibold.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Semibold.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C593C5B66CD14560B14E2F5D /* SharpSansDisplayNo1-Thin.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Thin.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E99EA2A890B74536AF10971A /* SharpSansDisplayNo1-Ultrathin.ttf */ = {isa = PBXFileReference; name = "SharpSansDisplayNo1-Ultrathin.ttf"; path = "../assets/fonts/SharpSansDisplayNo1-Ultrathin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD4D4F42E70C450CABB56841 /* icomoon.ttf */ = {isa = PBXFileReference; name = "icomoon.ttf"; path = "../assets/fonts/icomoon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-mythsera_movieapp-mythsera_movieappTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-mythsera_movieapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* mythsera_movieappTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* mythsera_movieappTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = mythsera_movieappTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* mythsera_movieapp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = mythsera_movieapp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-mythsera_movieapp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-mythsera_movieapp-mythsera_movieappTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* mythsera_movieapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* mythsera_movieappTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6F263F2FE2F74DDC9E78F51F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* mythsera_movieapp.app */,
+				00E356EE1AD99517003FC87E /* mythsera_movieappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-mythsera_movieapp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-mythsera_movieapp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-mythsera_movieapp-mythsera_movieappTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-mythsera_movieapp-mythsera_movieappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F263F2FE2F74DDC9E78F51F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				596FF91C194640588AF7A549 /* SFUIDisplay-Regular.otf */,
+				C26A280AE1794115815A3530 /* IBMPlexMono-Bold.ttf */,
+				B45D1D60198B4AC18C423D8E /* IBMPlexMono-BoldItalic.ttf */,
+				13FA4FA965DD43FEA988AE17 /* IBMPlexMono-ExtraLight.ttf */,
+				C99818F20BA44B8991C7F242 /* IBMPlexMono-ExtraLightItalic.ttf */,
+				2138078875E149989D70BB1F /* IBMPlexMono-Italic.ttf */,
+				D49FAB026C0F446F8C518331 /* IBMPlexMono-Light.ttf */,
+				5C4BE19C74164D1BB639E2B0 /* IBMPlexMono-LightItalic.ttf */,
+				E4818E10390E4E068A558E3B /* IBMPlexMono-Medium.ttf */,
+				D137DBF0909A4180B6ACD8CB /* IBMPlexMono-MediumItalic.ttf */,
+				9E5ED9341C924CC69888FABA /* IBMPlexMono-Regular.ttf */,
+				3C715D910AFA41DB83E35615 /* IBMPlexMono-SemiBold.ttf */,
+				A5059581636441BBA73C9822 /* IBMPlexMono-SemiBoldItalic.ttf */,
+				355A057104A544BBADD08542 /* IBMPlexMono-Thin.ttf */,
+				59C378EF06FA48E5A91311FB /* IBMPlexMono-ThinItalic.ttf */,
+				E6A8AF7E9E0F4874974CD2C4 /* IBMPlexSans-Bold.ttf */,
+				90A0058D9DFD41C2B6435FFC /* IBMPlexSans-BoldItalic.ttf */,
+				D282B4198FDB4B80A99F4172 /* IBMPlexSans-ExtraLight.ttf */,
+				8B06E323D67A4640BF4987DE /* IBMPlexSans-ExtraLightItalic.ttf */,
+				34CE523C67034D15A217AB62 /* IBMPlexSans-Italic.ttf */,
+				6B29A10660B9435C892B258E /* IBMPlexSans-Light.ttf */,
+				DCEE63BDE7E54700A97B2984 /* IBMPlexSans-LightItalic.ttf */,
+				A772978B2DB6410DB48CEF91 /* IBMPlexSans-Medium.ttf */,
+				E88F6791460C49F4AF500B91 /* IBMPlexSans-MediumItalic.ttf */,
+				FF848895B98B4BBC93D308CA /* IBMPlexSans-Regular.ttf */,
+				20EFFE008DF84BA48D67BA9C /* IBMPlexSans-SemiBold.ttf */,
+				189B641FE0E94910BEF70915 /* IBMPlexSans-SemiBoldItalic.ttf */,
+				09B1442768814F49A4755D31 /* IBMPlexSans-Thin.ttf */,
+				65545834445345578CAAA67F /* IBMPlexSans-ThinItalic.ttf */,
+				A1A0C60C546E4F2194393994 /* Lato-Black.ttf */,
+				1C8A7EA961614A2182DC63F4 /* Lato-BlackItalic.ttf */,
+				5F27115DB96F458882A6051D /* Lato-Bold.ttf */,
+				5A9C4C5AF92D40E6AE629EFA /* Lato-BoldItalic.ttf */,
+				3A06779E9D6D4821B6144B5D /* Lato-Hairline.ttf */,
+				9574031FADEE410B9B8F0646 /* Lato-HairlineItalic.ttf */,
+				0E82D007AB7740EF848FC3A6 /* Lato-Heavy.ttf */,
+				C089EAAC00D946ED8DA6248C /* Lato-HeavyItalic.ttf */,
+				BBC321C6C43145FC90916FE5 /* Lato-Italic.ttf */,
+				A7B96973B47F4C05A8FA434E /* Lato-Light.ttf */,
+				23700DC3CB584D96A29D222E /* Lato-LightItalic.ttf */,
+				4D80D56E127E4F348BE49CD1 /* Lato-Medium.ttf */,
+				6EEFFC17DB70447A8FBB98A4 /* Lato-MediumItalic.ttf */,
+				1294676BE60647A8B8476F1B /* Lato-Regular.ttf */,
+				432BF1864DDC47E388519D75 /* Lato-Semibold.ttf */,
+				538DAA47AEAB4F4493856FE3 /* Lato-SemiboldItalic.ttf */,
+				08B14FBB345B43A2B50BEC04 /* Lato-Thin.ttf */,
+				593E4E1B12274E90A5BB66D7 /* Lato-ThinItalic.ttf */,
+				075FFDE6EF8A4AFC81FBE15A /* SharpSans-Book.ttf */,
+				6CD7ED20A87A4129A7BA3F43 /* SharpSans-Medium.ttf */,
+				1B64B62CEAFD45DFB967B008 /* SharpSans-Semibold.ttf */,
+				CDADD61D29FF4CA2BA9CB8F5 /* SharpSansDisplayNo1-Black.ttf */,
+				A37AE0ACA34A4C1597446CCC /* SharpSansDisplayNo1-Bold.ttf */,
+				7458CF77EE804C948A56B3C0 /* SharpSansDisplayNo1-Book.ttf */,
+				31B01C21A0BD4CFCAB4C22C5 /* SharpSansDisplayNo1-Extrabold.ttf */,
+				38134FF16B714ED4A6E477C9 /* SharpSansDisplayNo1-Hairline.ttf */,
+				9A465562DB4C4BF4B5C7705F /* SharpSansDisplayNo1-Medium.ttf */,
+				378B6A1840864493904FBB95 /* SharpSansDisplayNo1-Semibold.ttf */,
+				C593C5B66CD14560B14E2F5D /* SharpSansDisplayNo1-Thin.ttf */,
+				E99EA2A890B74536AF10971A /* SharpSansDisplayNo1-Ultrathin.ttf */,
+				BD4D4F42E70C450CABB56841 /* icomoon.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* mythsera_movieappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mythsera_movieappTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = mythsera_movieappTests;
+			productName = mythsera_movieappTests;
+			productReference = 00E356EE1AD99517003FC87E /* mythsera_movieappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* mythsera_movieapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mythsera_movieapp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mythsera_movieapp;
+			productName = mythsera_movieapp;
+			productReference = 13B07F961A680F5B00A75B9A /* mythsera_movieapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mythsera_movieapp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* mythsera_movieapp */,
+				00E356ED1AD99517003FC87E /* mythsera_movieappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6C0E15BFA4724CC19462AF66 /* SFUIDisplay-Regular.otf in Resources */,
+				BCAE5FF5615E49D19D0797BD /* IBMPlexMono-Bold.ttf in Resources */,
+				27989B4B423D4EA493899779 /* IBMPlexMono-BoldItalic.ttf in Resources */,
+				789C9094C8C749DEB12BEE80 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				9E7537FEBAE44BED8450237C /* IBMPlexMono-ExtraLightItalic.ttf in Resources */,
+				2D73E11297054EA2962C1699 /* IBMPlexMono-Italic.ttf in Resources */,
+				80E78060BB22472EA359F7E8 /* IBMPlexMono-Light.ttf in Resources */,
+				F24F6A1097C34ED4AECE3B6F /* IBMPlexMono-LightItalic.ttf in Resources */,
+				02C26A9921DF4ED699124061 /* IBMPlexMono-Medium.ttf in Resources */,
+				695B23BAA77F4582AB7CFC19 /* IBMPlexMono-MediumItalic.ttf in Resources */,
+				AB543D3958394B16BF9209F6 /* IBMPlexMono-Regular.ttf in Resources */,
+				B6DC9AF501BB48FD82141E64 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				0C43C60C426F4F2CBEC7F7E8 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */,
+				D342ADC0C6214DDDBCB7152C /* IBMPlexMono-Thin.ttf in Resources */,
+				4218372DF3064712AAB3F815 /* IBMPlexMono-ThinItalic.ttf in Resources */,
+				0821AA4CB24645DEA0829FA0 /* IBMPlexSans-Bold.ttf in Resources */,
+				451FCBDA744148D187B261DC /* IBMPlexSans-BoldItalic.ttf in Resources */,
+				79E9B386AC274500A79F4106 /* IBMPlexSans-ExtraLight.ttf in Resources */,
+				3DF73E6D0A1943EC9E2D9661 /* IBMPlexSans-ExtraLightItalic.ttf in Resources */,
+				57E4835010FA4D378C9475B7 /* IBMPlexSans-Italic.ttf in Resources */,
+				6512DCAD41C34936B9AC682C /* IBMPlexSans-Light.ttf in Resources */,
+				CFE23C02A8334B5CBCFD186A /* IBMPlexSans-LightItalic.ttf in Resources */,
+				88F0A5791B0344179584FA4C /* IBMPlexSans-Medium.ttf in Resources */,
+				C034BCF32CC14916A78F44F2 /* IBMPlexSans-MediumItalic.ttf in Resources */,
+				09D67B69617143268F949B1B /* IBMPlexSans-Regular.ttf in Resources */,
+				A3359A189D764D5DB89A5B74 /* IBMPlexSans-SemiBold.ttf in Resources */,
+				F9C78037A17F4EA294BB237E /* IBMPlexSans-SemiBoldItalic.ttf in Resources */,
+				BC8A4E1FC6E042148FDADE3B /* IBMPlexSans-Thin.ttf in Resources */,
+				ECDDDF30D6404EEC84A5DBDE /* IBMPlexSans-ThinItalic.ttf in Resources */,
+				A051087F45E14FBF98019E65 /* Lato-Black.ttf in Resources */,
+				2895A320C451473E835B50A3 /* Lato-BlackItalic.ttf in Resources */,
+				262A7112B52E4F3FA03E7AE0 /* Lato-Bold.ttf in Resources */,
+				65E445E44C904B0B8383A3F1 /* Lato-BoldItalic.ttf in Resources */,
+				9E205FDD80E64FCE9EE322B4 /* Lato-Hairline.ttf in Resources */,
+				E9DF278BE9BC4C6CBA97A629 /* Lato-HairlineItalic.ttf in Resources */,
+				C678EC7439044CFE82CE1156 /* Lato-Heavy.ttf in Resources */,
+				3BEEB3F4FE6E4564A8370C85 /* Lato-HeavyItalic.ttf in Resources */,
+				D2769C582C4644EBB7D3229E /* Lato-Italic.ttf in Resources */,
+				F01A7B544038456095EC6B0F /* Lato-Light.ttf in Resources */,
+				CA316DEE2ED64A898E79BEC4 /* Lato-LightItalic.ttf in Resources */,
+				BEB8F6E90435443691646181 /* Lato-Medium.ttf in Resources */,
+				B88DF5E0F5FF44F3B843406E /* Lato-MediumItalic.ttf in Resources */,
+				9690839FA0CF4F9CB9EB163D /* Lato-Regular.ttf in Resources */,
+				2192BC6A6530437D813F2EDE /* Lato-Semibold.ttf in Resources */,
+				58706437EE2C4A71B8B03365 /* Lato-SemiboldItalic.ttf in Resources */,
+				783A64BBA7634FBEAC076199 /* Lato-Thin.ttf in Resources */,
+				E38AD845978F48F6B366CB02 /* Lato-ThinItalic.ttf in Resources */,
+				D53CF1E8F268410AADEAACD1 /* SharpSans-Book.ttf in Resources */,
+				5709906D62974A8BA87E970C /* SharpSans-Medium.ttf in Resources */,
+				D062AA3E93D44E0F9BEE5B23 /* SharpSans-Semibold.ttf in Resources */,
+				A1DFD8024B674C79BEDDFDC1 /* SharpSansDisplayNo1-Black.ttf in Resources */,
+				732012D59CB649308FBB8103 /* SharpSansDisplayNo1-Bold.ttf in Resources */,
+				2CEEF393042E43CB8A281429 /* SharpSansDisplayNo1-Book.ttf in Resources */,
+				CED1323853B2427CBDD14B21 /* SharpSansDisplayNo1-Extrabold.ttf in Resources */,
+				0D0FA08024DA4AE0831AFA09 /* SharpSansDisplayNo1-Hairline.ttf in Resources */,
+				8D8E72E086674B7899C298E3 /* SharpSansDisplayNo1-Medium.ttf in Resources */,
+				E7E945E93EA745FFB462DFAB /* SharpSansDisplayNo1-Semibold.ttf in Resources */,
+				2358788F777246DB82DAE463 /* SharpSansDisplayNo1-Thin.ttf in Resources */,
+				E13B084D4C15421CA37093B3 /* SharpSansDisplayNo1-Ultrathin.ttf in Resources */,
+				773DC2E58FAC4BFD92BCDC4D /* icomoon.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mythsera_movieapp-mythsera_movieappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mythsera_movieapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp/Pods-mythsera_movieapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mythsera_movieapp-mythsera_movieappTests/Pods-mythsera_movieapp-mythsera_movieappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* mythsera_movieappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* mythsera_movieapp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-mythsera_movieapp-mythsera_movieappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mythsera_movieappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mythsera_movieapp.app/mythsera_movieapp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-mythsera_movieapp-mythsera_movieappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = mythsera_movieappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mythsera_movieapp.app/mythsera_movieapp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-mythsera_movieapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = mythsera_movieapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mythsera_movieapp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-mythsera_movieapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = mythsera_movieapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mythsera_movieapp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mythsera_movieappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mythsera_movieapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mythsera_movieapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
