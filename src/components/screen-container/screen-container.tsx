@@ -2,15 +2,18 @@ import React, {ReactElement, useMemo} from 'react';
 import {View, ScrollView, StyleProp, ViewStyle, TextStyle} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
+
 import navigationService from '../../navigation/navigation-service';
 
 import BackIcon from '../../res/icons/back-icon';
 import colors from '../../theme/color';
+
 import ActionButton, {ActionButtonProps} from '../action-button';
 import MovieText from '../movie-text';
-
 import AppHeader, {AppHeaderProps} from './app-header';
+
 import styles from './styles';
+
 type IProps = AppHeaderProps & {
   withoutSafeArea?: boolean;
   removScrollView?: boolean;

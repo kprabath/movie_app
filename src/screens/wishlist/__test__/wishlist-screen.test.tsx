@@ -1,12 +1,13 @@
-/* eslint-disable react/react-in-jsx-scope */
-import {waitFor, cleanup, fireEvent} from '@testing-library/react-native';
+import {cleanup, waitFor} from '@testing-library/react-native';
+import React from 'react';
 
-import {MoviesApi} from '../../../library/api/movies.api';
-import {makeProps, renderWithRedux} from '../../../library/test-utils';
+import {
+  makeProps,
+  renderWithMockStore,
+  renderWithRedux,
+} from '../../../library/test-utils';
 import {store} from '../../../store';
-import {getMovieDetails} from '../../../store/actions/movie.actions';
-
-import DetailScreen from '../detail-screen';
+import WhistListScreen from '../wish-list-screen';
 
 const movie = {
   adult: false,
@@ -78,37 +79,23 @@ const movie = {
   vote_average: 7.015,
   vote_count: 860,
 };
-jest.spyOn(MoviesApi, 'getMovieDetails').mockImplementation(() =>
-  Promise.resolve({
-    data: movie,
-  }),
-);
 
-describe('Details Screen', () => {
-  test('Should load all the details of a movie', async () => {
-    const props = makeProps({selectedMovie: movie});
-    const {getByText} = renderWithRedux(<DetailScreen {...props} />);
-    store.dispatch(getMovieDetails(629176, jest.fn()));
-    await waitFor(() => {
-      expect(getByText('Samaritan')).toBeTruthy();
-      const button = getByText('ADD');
-      expect(button).toBeTruthy();
-    });
+const mockStore = {
+  selectedMovies: [movie],
+};
+
+describe('wishlist screen', () => {
+  afterEach(cleanup);
+  test('should render empty data view given no data', () => {
+    const props = makeProps();
+    const {getByText} = renderWithRedux(<WhistListScreen {...props} />);
+    expect(getByText('No Saved Data')).toBeTruthy();
   });
 
-  test('when click the add button should add to the selected movies', async () => {
-    afterAll(cleanup);
-    const props = makeProps({selectedMovie: movie});
-    const component = renderWithRedux(<DetailScreen {...props} />);
-    store.dispatch(getMovieDetails(629176, jest.fn()));
-    await waitFor(() => {
-      const button = component.getByText('ADD');
-      fireEvent.press(button);
-      expect(
-        store
-          .getState()
-          .movieReducer.selectedMovies.some(el => el?.id === movie?.id),
-      ).toBeTruthy();
+  test('given selected movies should render a list of movies', async () => {
+    const {getByText} = renderWithMockStore(<WhistListScreen />, mockStore);
+    waitFor(() => {
+      expect(getByText('Samaritan')).toBeTruthy();
     });
   });
 });

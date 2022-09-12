@@ -49,8 +49,6 @@ export const renderWithMockStore = (
   mockStore: object,
 ) => {
   const mockReducer = configureStore([]);
-  const store = mockReducer(mockStore);
-
   return {
     ...render(
       <SafeAreaProvider
@@ -61,7 +59,7 @@ export const renderWithMockStore = (
     // adding `store` to the returned utilities to allow us
     // to reference it in our tests (just try to avoid using
     // this to test implementation details).
-    store,
+    store: mockReducer(mockStore),
   };
 };
 
