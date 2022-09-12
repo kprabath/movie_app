@@ -50,8 +50,8 @@ exports[`ScreenContainer should match the snapshot 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "minHeight": 1800,
-            "paddingHorizontal": 50,
+            "minHeight": 100,
+            "paddingHorizontal": 16.666666666666668,
           },
           undefined,
         ]
@@ -93,13 +93,13 @@ exports[`ScreenContainer should match the snapshot 1`] = `
           style={
             Array [
               Object {
-                "paddingHorizontal": 50,
+                "paddingHorizontal": 16.666666666666668,
               },
               undefined,
               Object {
                 "backgroundColor": "#e74c3c",
                 "borderRadius": 40,
-                "padding": 10,
+                "padding": 16.666666666666668,
               },
             ]
           }
@@ -143,11 +143,11 @@ exports[`ScreenContainer should match the snapshot 1`] = `
                   "color": "#ffffff",
                 },
                 Object {
-                  "fontSize": 14,
+                  "fontSize": 23.333333333333336,
                 },
                 Array [
                   Object {
-                    "fontSize": 288,
+                    "fontSize": 40,
                   },
                   undefined,
                 ],
