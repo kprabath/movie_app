@@ -39,7 +39,7 @@ const MovieDetailComponent = ({
           />
           <IconText
             icon={<StarIcon />}
-            text={toPrecision(movie?.vote_average, 2).toString() + IMDB}
+            text={toPrecision(movie?.vote_average, 2).toString() + ` ${IMDB}`}
           />
         </View>
       </View>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   paddingHorizontal20: {
-    paddingHorizontal: getScalenNumber(20),
+    paddingHorizontal: getScalenNumber(10),
   },
   marginRight10: {
     marginRight: getScalenNumber(10),

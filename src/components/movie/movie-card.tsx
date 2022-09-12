@@ -11,6 +11,7 @@ import IconText from '../icon-text';
 import MovieText, {MovieTextTypes} from '../movie-text';
 import PosterComponent from '../poster-component';
 import GenreList from './genre-list';
+import {IMDB} from '../../library/constants';
 
 type IProps = {
   movie: Movie;
@@ -46,7 +47,7 @@ const MovieCard = ({movie: item, children}: IProps) => (
       )}
       <IconText
         icon={<StarIcon />}
-        text={toPrecision(item.vote_average, 2).toString() + ' (IMDb)'}
+        text={toPrecision(item.vote_average, 2).toString() + ` ${IMDB}`}
         textStyles={styles.marginVertical}
       />
     </View>

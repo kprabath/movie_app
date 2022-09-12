@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native';
 
+import {getScalenNumber} from '../library/utils';
 import colors from '../theme/color';
 
 import MovieText, {MovieTextTypes} from './movie-text';
@@ -25,13 +26,13 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.primaryColor,
     width: undefined,
-    borderRadius: 20,
-    paddingHorizontal: 10,
-    minWidth: 60,
-    paddingVertical: 5,
+    borderRadius: getScalenNumber(20),
+    paddingHorizontal: getScalenNumber(10),
+    minWidth: getScalenNumber(60),
+    paddingVertical: getScalenNumber(5),
     alignItems: 'center',
-    marginRight: 10,
-    marginVertical: 5,
+    marginRight: getScalenNumber(10),
+    marginVertical: getScalenNumber(5),
   },
   fontWeight: {
     fontWeight: '700',

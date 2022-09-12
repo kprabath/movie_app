@@ -43,8 +43,8 @@ const EmptyDataView = ({
 
 const styles = StyleSheet.create({
   emptyContainer: {
-    zIndex: 10,
     flex: 1,
+    zIndex: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
