@@ -15,7 +15,7 @@ follow these steps to run on IOS<br />
   It will start installing the node modules <br />
   Once completed Go to the IOS directory by executing "cd ios" and run "pod install"<br /> 
   It will start installing the pod files <br />
-  Once finished "run yarn ios" <br />
+  Once finished run "yarn ios" <br />
   It will open the simulator and will run the Application<br />
   If you face any errors while running "yarn ios" go to the IOS project directory<br />
   Open the .workspace file by double clicking<br />
